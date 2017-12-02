@@ -2,14 +2,13 @@
 import java.util.*;
 import java.io.*;
 
-public class AocDayOne {
+public class Captcha {
 
 	static ArrayList<Integer> testArray; 
 	static int sum = 0; 
 	static String input;
 
 	public static void main(String [] args) {
-
 		testArray = new ArrayList<Integer>();
 
 		//Get input from inputDay1.txt --> Go from string to int. --> Save in testArray.
