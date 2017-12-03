@@ -35,8 +35,6 @@ public class Checksum {
 			inputList.add(convertList);
 		}
 
-		
-
 		System.out.println(getChecksumPartB(inputList));
 	}
 
@@ -49,7 +47,6 @@ public class Checksum {
 		}
 		return sum;
 	}
-
 
 	//Rewrite this. Works but, not good/ok time complexity.
 	//Returning sum/2 since checking all integers with each other twice. 
